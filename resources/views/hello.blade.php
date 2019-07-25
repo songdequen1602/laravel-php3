@@ -4,6 +4,6 @@
 	<title></title>
 </head>
 <body>
-<H1>HELLO WORLD</H1>
+<H1>HEL WORLD</H1>
 </body>
 </html>
