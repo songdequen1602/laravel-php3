@@ -10,7 +10,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('students', 'StudentController@index')->name('student');
+Route::get('classes', 'ClassRoomController@index')->name('classes');
+Route::get('admins', function () {
+    return view('admins');
+});
+Route::get('users', function () {
+    return view('users');
+});
+Route::get('admin/classes', 'ClassRoomController@index' , function () {
+    return view('admin/classes');
+});
 Route::get('/', function () {
     return view('welcome');
 });
