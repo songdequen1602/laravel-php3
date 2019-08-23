@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+.star-rating{
+	margin-bottom: 5px;
+	text-align: center;
+}
+.star-rating .star-base{
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(../image/gray.png);
+	height: 16px;
+	font-size: 0;
+	position: relative;
+}
+.star-rating .star-rate{
+	background-image: url(../image/orange.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+}
+.star-rating .star-base a{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
